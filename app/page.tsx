@@ -1,4 +1,10 @@
+"use client"
+import Link from "next/link";
+import { useRouter } from "next/router"
+
 export default function HomePage() {
+  const router = useRouter;
+
   return (
     <main className="min-h-screen bg-black text-white">
 
@@ -20,9 +26,11 @@ export default function HomePage() {
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <button className="bg-white text-black px-8 py-4 rounded-2xl font-semibold text-lg hover:scale-105 transition">
+          <Link
+          href={"/audit"}
+           className="bg-white text-black px-8 py-4 rounded-2xl font-semibold text-lg hover:scale-105 transition">
             Start Free Audit
-          </button>
+          </Link>
 
           <button className="border border-white/20 px-8 py-4 rounded-2xl text-lg hover:bg-white/10 transition">
             View Demo
