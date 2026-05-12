@@ -6,7 +6,7 @@ export default function HomePage() {
   const router = useRouter;
 
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="min-h-screen bg-linear-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
 
       {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-6 py-24 text-center">

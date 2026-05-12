@@ -289,7 +289,7 @@ export default function AuditPage() {
 }
 
   return (
-    <main className="min-h-screen bg-black text-white px-6 py-20">
+    <main className="min-h-screen bg-linear-to-br from-slate-900 via-slate-800 to-slate-900 text-white px-6 py-20">
 
       <div className="max-w-6xl mx-auto">
 
@@ -349,7 +349,7 @@ export default function AuditPage() {
                         e.target.value
                       )
                     }
-                    className="w-full p-4 rounded-xl bg-white/10 border border-white/20"
+                    className="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-black"
                   >
 
                     <option value="">
@@ -405,7 +405,7 @@ export default function AuditPage() {
                         e.target.value
                       )
                     }
-                    className="w-full p-4 rounded-xl bg-white/10 border border-white/20"
+                    className="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-black"
                   >
 
                     <option value="">
@@ -512,7 +512,7 @@ export default function AuditPage() {
                 e.target.value
               )
             }}
-            className="w-full p-4 rounded-xl bg-white/10 border border-white/20"
+            className="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-black"
           >
 
             <option value="">
